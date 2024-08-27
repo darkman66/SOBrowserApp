@@ -39,7 +39,7 @@ class ViewController: UIViewController,UIWebViewDelegate{
         
         //MARK: - Create Custom ActivityIndicator
         myActivityIndicator.center = self.view.center
-        myActivityIndicator.style = .gray
+        myActivityIndicator.style = UIActivityIndicatorView.Style.medium
         view.addSubview(myActivityIndicator)
         
         //Adding observer for show loading indicator
